@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/tdevries/Code/CustomerRequestJRubyProject'
+let g:netrw_dirhist_2='/Users/tdevries/Code/CustomerRequestJRubyProject/app'
+let g:netrw_dirhist_3='/Users/tdevries/Code/CustomerRequestJRubyProject/app/controllers'
+let g:netrw_dirhist_4='/Users/tdevries/Code/java_playground'
+let g:netrw_dirhist_5='/Users/tdevries/Code/CustomerRequestJRubyProject'
+let g:netrw_dirhist_6='/Users/tdevries/Code/CustomerRequestJRubyProject/app'
+let g:netrw_dirhist_7='/Users/tdevries/Code/CustomerRequestJRubyProject/app/controllers'
