@@ -1,0 +1,12 @@
+[submodule "ctrlp.vim"]
+	path = ctrlp.vim
+	url = /Users/tdevries/.vim/bundle/ctrlp.vim
+[submodule "nerdtree"]
+	path = nerdtree
+	url = /Users/tdevries/.vim/bundle/nerdtree
+[submodule "vim-rails"]
+	path = vim-rails
+	url = /Users/tdevries/.vim/bundle/vim-rails
+[submodule "vim-rvm"]
+	path = vim-rvm
+	url = /Users/tdevries/.vim/bundle/vim-rvm
