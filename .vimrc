@@ -8,7 +8,9 @@ set listchars=tab:▸\ ,eol:¬
 set gfn=Monaco:h12
 colorscheme railscasts
 
-
+set expandtab
+set shiftwidth=2
+set tabstop=2
 autocmd FileType ruby set expandtab|set shiftwidth=2|set tabstop=2
 autocmd FileType java set expandtab|set shiftwidth=4|set tabstop=4
 
