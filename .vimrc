@@ -1,17 +1,20 @@
 call pathogen#infect()
+set nocompatible
 syntax on
+set encoding=utf-8
+set showcmd
 filetype plugin indent on
 
-set grepprg=ack
-set number
-set listchars=tab:▸\ ,eol:¬
-set gfn=Monaco:h12
-colorscheme railscasts
-
+"Set Whitespace"
+set nowrap
+set tabstop=2 shiftwidth=2
 set expandtab
-set shiftwidth=2
-set tabstop=2
-autocmd FileType ruby set expandtab|set shiftwidth=2|set tabstop=2
-autocmd FileType java set expandtab|set shiftwidth=4|set tabstop=4
+set backspace=indent,eol,start
 
+"Set Search Settings"
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
 
+"Set Style"
