@@ -10,6 +10,7 @@ set nowrap
 set tabstop=2 shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
+autocmd BufWritePre * :%s/\s\+$//e
 
 "Set Search Settings"
 set hlsearch
@@ -18,3 +19,6 @@ set ignorecase
 set smartcase
 
 "Set Style"
+set number
+set listchars=tab:▸\ ,eol:¬
+set list
