@@ -22,3 +22,12 @@ set smartcase
 set number
 set listchars=tab:▸\ ,eol:¬
 set list
+set ruler
+
+"tags"
+set tags=./tags;
+
+"ack instead of grep"
+set grepprg=ack
+
+map <Leader># :TComment<CR>
