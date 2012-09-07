@@ -23,6 +23,7 @@ set number
 set listchars=tab:▸\ ,eol:¬
 set list
 set ruler
+colorscheme molokai
 
 "tags"
 set tags=./tags;
