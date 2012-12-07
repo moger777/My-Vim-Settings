@@ -32,3 +32,8 @@ set tags=./tags;
 set grepprg=ack
 
 map <Leader># :TComment<CR>
+
+"disable swap"
+set noswapfile
+
+set ls=2
