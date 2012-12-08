@@ -32,3 +32,5 @@ set tags=./tags;
 set grepprg=ack
 
 map <Leader># :TComment<CR>
+
+set shell=bash
