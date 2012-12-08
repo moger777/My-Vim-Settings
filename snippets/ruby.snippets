@@ -10,6 +10,10 @@ snippet describe
 		${2}
 	end
 snippet it
-	it '${1:does something}' do
+	it "${1:does something}" do
+		${2}
+	end
+snippet context
+	context "${1}" do
 		${2}
 	end

@@ -34,3 +34,8 @@ set grepprg=ack
 map <Leader># :TComment<CR>
 
 set shell=bash
+
+"disable swap"
+set noswapfile
+
+set ls=2
