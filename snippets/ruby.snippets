@@ -17,3 +17,21 @@ snippet context
 	context "${1}" do
 		${2}
 	end
+snippet Given
+	Given(:${1:variable_name}) { ${2} }
+snippet Givendo
+	Given(${1:variable_name}) do
+		${2}
+	end
+snippet When
+	When { ${2} }
+snippet Whendo
+	When do
+		${2}
+	end
+snippet Then
+	Then { ${2} }
+snippet Thendo
+	Then do
+		${2}
+	end

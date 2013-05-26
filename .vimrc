@@ -4,6 +4,7 @@ syntax on
 set encoding=utf-8
 set showcmd
 filetype plugin indent on
+set autoindent
 
 "Set Whitespace"
 set nowrap
@@ -39,3 +40,14 @@ set shell=bash
 set noswapfile
 
 set ls=2
+
+set mouse=a
+set ttymouse=xterm2
+
+set clipboard=unnamed
+
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.log
+
+"ctrlp"
+let g:ctrlp_dont_split = 'nerdtree'
+let g:ctrlp_working_path_mode = ''
