@@ -30,7 +30,7 @@
 	url = git://github.com/digitaltoad/vim-jade.git
 [submodule "bundle/vim-emblem"]
 	path = bundle/vim-emblem
-	url = git://github.com/darthdeus/vim-emblem.git
+	url = git://github.com/heartsentwined/vim-emblem.git
 [submodule "bundle/vim-indent-guides"]
 	path = bundle/vim-indent-guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
