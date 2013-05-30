@@ -6,6 +6,9 @@ set showcmd
 filetype plugin indent on
 set autoindent
 
+"leader"
+let mapleader=","
+
 "Set Whitespace"
 set nowrap
 set tabstop=2 shiftwidth=2
@@ -32,7 +35,7 @@ set tags=./tags;
 "ack instead of grep"
 set grepprg=ack
 
-map <Leader># :TComment<CR>
+map <Leader>c :TComment<CR>
 
 set shell=bash
 
