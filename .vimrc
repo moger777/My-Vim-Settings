@@ -6,15 +6,12 @@ set showcmd
 filetype plugin indent on
 set autoindent
 
-"leader"
-let mapleader=","
-
 "Set Whitespace"
 set nowrap
 set tabstop=2 shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
-autocmd BufWritePre * :%s/\s\+$//e
+" autocmd BufWritePre * :%s/\s\+$//e
 
 "Set Search Settings"
 set hlsearch
@@ -35,7 +32,6 @@ set tags=./tags;
 "ack instead of grep"
 set grepprg=ack
 
-map <Leader>c :TComment<CR>
 
 set shell=bash
 
@@ -54,3 +50,12 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.log
 "ctrlp"
 let g:ctrlp_dont_split = 'nerdtree'
 let g:ctrlp_working_path_mode = ''
+let g:ctrlp_regexp = 1
+let g:ctrlp_switch_buffer = 0
+
+" mappings "
+let mapleader=","
+map <Leader>c :TComment<CR>
+
+map <Leader>n :cnext<CR>
+map <Leader>p :cprev<CR>

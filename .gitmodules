@@ -37,3 +37,15 @@
 [submodule "bundle/vim-emblem"]
 	path = bundle/vim-emblem
 	url = git://github.com/heartsentwined/vim-emblem.git
+[submodule "bundle/cocoa.vim"]
+	path = bundle/cocoa.vim
+	url = git://github.com/vim-scripts/cocoa.vim.git
+[submodule "bundle/greplace.vim"]
+	path = bundle/greplace.vim
+	url = git://github.com/vim-scripts/greplace.vim.git
+[submodule "bundle/vim-elixir"]
+	path = bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir
+[submodule "bundle/vim-handlebars"]
+	path = bundle/vim-handlebars
+	url = https://github.com/nono/vim-handlebars.git
